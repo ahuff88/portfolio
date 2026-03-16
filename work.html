@@ -1,0 +1,169 @@
+<!-- Work Page - Mobile -->
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Austin Huff | Work</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1152d4",
+              "background-light": "#f6f6f8",
+              "background-dark": "#101622",
+              "surface-dark": "#192233",
+              "border-dark": "#232f48"
+            },
+            fontFamily: {
+              "display": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+<!-- Header / Nav -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-border-dark">
+<div class="max-w-5xl mx-auto flex items-center justify-between p-4">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-2 rounded-lg text-white">
+<span class="material-symbols-outlined block">terminal</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight">Austin Huff</h1>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 hover:bg-slate-200 dark:hover:bg-surface-dark rounded-full transition-colors">
+<span class="material-symbols-outlined">alternate_email</span>
+</button>
+<button class="p-2 hover:bg-slate-200 dark:hover:bg-surface-dark rounded-full transition-colors md:hidden">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<!-- Sub-navigation -->
+<nav class="max-w-5xl mx-auto px-4">
+<div class="flex gap-8 border-b border-slate-200 dark:border-border-dark">
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-slate-500 dark:text-slate-400 pb-3 pt-4 hover:text-primary transition-colors" href="index.html"
+href="work.html"
+href="about.html">
+<span class="text-sm font-bold leading-normal">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-primary text-primary pb-3 pt-4" href="index.html"
+href="work.html"
+href="about.html">
+<span class="text-sm font-bold leading-normal">Work</span>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-transparent text-slate-500 dark:text-slate-400 pb-3 pt-4 hover:text-primary transition-colors" href="index.html"
+href="work.html"
+href="about.html">
+<span class="text-sm font-bold leading-normal">About</span>
+</a>
+</div>
+</nav>
+</header>
+<main class="flex-1 max-w-5xl mx-auto w-full p-4 md:p-8">
+<!-- Hero Section -->
+<section class="py-8">
+<h2 class="text-slate-900 dark:text-white tracking-tight text-4xl md:text-5xl font-bold leading-tight pb-4">My Work</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg max-w-2xl">A collection of projects spanning web development, software engineering, and traditional arts.</p>
+</section>
+<!-- Project Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+<!-- Project 1 -->
+<div class="group flex flex-col bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark overflow-hidden transition-all hover:shadow-xl hover:shadow-primary/10">
+<div class="aspect-video w-full bg-slate-100 dark:bg-slate-800 relative overflow-hidden">
+<img alt="Portfolio screenshot" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Clean minimalist website portfolio design mockup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHkVfTUktvAe4rdQXw_0hEnKkN4njZQtDNPEiQIuy65Qsv1Y-QunYhpSyk01d-uf-TOb2JoL5h13bwjhrGOyN6GJRrxHd24UrslMaggLFCfBMFF7CgXfhsTPfDH5tSpJTbHIJ5_CKXBpHsy-Pg4ezKle3RRFS8W9LLEBn-imtekO4kEXQqlCixcmzThCxMF_MnR6jobg15mx2ATxcSoCNYmrKjiWH0UH-SZFlhfsCULFxgeqR2BvHl-QOIfoNn7FpsefAi2LniNF6U"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="flex gap-2 mb-3">
+<span class="px-2 py-1 rounded bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider">Web Development</span>
+</div>
+<h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">AI Portfolio Website</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                        Designed and developed a responsive multi-page portfolio website using HTML and CSS, utilizing generative AI for assistance.
+                    </p>
+<div class="mt-auto flex flex-wrap gap-2">
+<span class="text-xs font-medium px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded text-slate-500">HTML</span>
+<span class="text-xs font-medium px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded text-slate-500">CSS</span>
+<span class="text-xs font-medium px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded text-slate-500">AI</span>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group flex flex-col bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark overflow-hidden transition-all hover:shadow-xl hover:shadow-primary/10">
+<div class="aspect-video w-full bg-slate-100 dark:bg-slate-800 relative overflow-hidden">
+<img alt="C++ Code on screen" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Source code interface showing programming logic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnX-o6RXxaiJCaBn0UOTF-LI4t94VvSVHGYzZMUmFpbylSqD9bg05g23-Ep21Q-NAEcyESX-teiyL_ejRqj5csiZzW-1rIJPYDRPsHH-mG503RYgddpFqu-aH1SvmuCCmNvVynJqA__qewUOLxJ08mQxvEENoQU3hrcYl9r2nktEQe4-n-UcMHztGPgUosH2ea6EplQMIPkDdfL3LxAIaDtSIQBDy1rWKPXelg6fXGbwvlACN6L_mfl7A_WLSVvIR_YBtNUDhvVDun"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="flex gap-2 mb-3">
+<span class="px-2 py-1 rounded bg-emerald-500/10 text-emerald-500 text-[10px] font-bold uppercase tracking-wider">Software</span>
+</div>
+<h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">C++ Programming Projects</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                        Developed multiple C++ programs involving mathematical computation, loops, and input-driven algorithms.
+                    </p>
+<div class="mt-auto flex flex-wrap gap-2">
+<span class="text-xs font-medium px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded text-slate-500">C++</span>
+<span class="text-xs font-medium px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded text-slate-500">Algorithms</span>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="group flex flex-col bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark overflow-hidden transition-all hover:shadow-xl hover:shadow-primary/10">
+<div class="aspect-video w-full bg-slate-100 dark:bg-slate-800 relative overflow-hidden">
+<img alt="Glass art fabrication" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Beautiful glowing molten glass in a studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcOggFaTyGtO-VJsu3V1qE68KQP5nROz2-6IDhFoo0fWNYCreKtZAY0MVmON7zrj_ut_k8P68_0QMsLLfS84GLd1EbQYyIGmoolxLqbB2E-59EvrRP7zCnuifLXDacCRndyv2tQmWnoPzJOSG-h8QfDCesCju-i9iWyJCSnFmbMkQfij7CG5LMW8ctgG-MhpkTCTUJjc1tqgUf3256bwpDduS5ccUA2E6WHMf69SHvJpQtobHet21HGJo0bocJeL9TwkpTOJbcuDmB"/>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<div class="flex gap-2 mb-3">
+<span class="px-2 py-1 rounded bg-amber-500/10 text-amber-500 text-[10px] font-bold uppercase tracking-wider">Traditional Arts</span>
+</div>
+<h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Glass Art &amp; Design</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                        Fabricated custom glass pieces, demonstrating patience and technical skill development in artisanal craftsmanship.
+                    </p>
+<div class="mt-auto flex flex-wrap gap-2">
+<span class="text-xs font-medium px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded text-slate-500">Glassblowing</span>
+<span class="text-xs font-medium px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded text-slate-500">Design</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<footer class="sticky bottom-0 bg-surface-dark border-t border-border-dark py-2 md:hidden">
+<div class="flex gap-2 px-4">
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400" href="index.html"
+href="work.html"
+href="about.html">
+<span class="material-symbols-outlined">home</span>
+<p class="text-[10px] font-medium leading-normal tracking-wide">Home</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-white" href="index.html"
+href="work.html"
+href="about.html">
+<span class="material-symbols-outlined">work</span>
+<p class="text-[10px] font-medium leading-normal tracking-wide">Work</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-400" href="index.html"
+href="work.html"
+href="about.html">
+<span class="material-symbols-outlined">person</span>
+<p class="text-[10px] font-medium leading-normal tracking-wide">About</p>
+</a>
+</div>
+</footer>
+</body></html>
